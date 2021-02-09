@@ -1,0 +1,28 @@
+ desc player;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PID                                       NOT NULL VARCHAR2(6)
+ PNAME                                     NOT NULL VARCHAR2(20)
+ PTEAM                                     NOT NULL VARCHAR2(10)
+ FID                                       NOT NULL NUMBER(1)
+ RUNS                                               NUMBER(5)
+ BALLSFACED                                         NUMBER(5)
+ MATCHES                                            NUMBER(3)
+ INNINGS                                            NUMBER(3)
+ AVG                                                NUMBER(5,2)
+ SR                                                 NUMBER(5,2)
+ HIGHEST                                            NUMBER(4)
+ FIFTIES                                            NUMBER(3)
+ HUNDREDS                                           NUMBER(3)
+ FOURS                                              NUMBER(4)
+ SIXES                                              NUMBER(4)
+ BALLSBOWLED                                        NUMBER(5)
+ RUNSCONCEDED                                       NUMBER(5)
+ ECONOMY                                            NUMBER(4,2)
+ BESTWICKETS                                        NUMBER(2)
+ BESTRUNS                                           NUMBER(3)
+ FIFERS                                             NUMBER(3)
+ WICKETS                                            NUMBER(4)
+
+
+primarykey(PID,FID)
